@@ -1,0 +1,1 @@
+# terrascan-argocd
