@@ -13,6 +13,7 @@ spec:
         image: accurics/terrascan:latest
         command: ["/bin/sh", "-c"]
         args:
-        - > /go/bin/terrascan scan -r git -u https://github.com/sangam14/terrascan-argocd.git -i k8s -t k8s
+        - > 
+          /go/bin/terrascan scan -r git -u https://github.com/sangam14/terrascan-argocd.git -i k8s -t k8s
       restartPolicy: Never
   backoffLimit: 1
